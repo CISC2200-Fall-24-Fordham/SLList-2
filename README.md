@@ -29,4 +29,7 @@ git clone https://github.com/CISC2200-Fall-24-Fordham/SLList.git
 
 ### TODOs
 
-1.
+1. Get `SLList->size()` to return the correct value.
+1. Implement `SLList->addLast()`
+1. Implement `SLList->removeDuplicates()`
+1. BONUS: Get `std::format` to work
