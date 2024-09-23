@@ -24,10 +24,22 @@ From your terminal (mac or WSL/Ubunto) window, you can use the
 following command to download it:
 
 ```bash
-git clone https://github.com/CISC2200-Fall-24-Fordham/SLList.git
+git clone https://github.com/CISC2200-Fall-24-Fordham/SLList2.git
 ```
 
 ### TODOs
+
+#### New for Part 2
+
+1. Use `SLListTemplate` and `SLListInheritance` instead of `SLList` header.
+1. Instantiate your own class, and store it in a SLList. Try additional data types.
+1. Make your SLList class iterable with the `for(auto x : my_list)` syntax.
+1. Override the `<<` operator for your class.
+1. Override the `<<` operator for `SLList` (Template, Inheritance or otherwise).
+1. Concatenate two SLLists together using all supported methods.
+1. Implement remove duplicates for the `SLListTemplate` and `SLListInheritance` classes.
+
+#### From Part 1
 
 1. Get `SLList->size()` to return the correct value.
 1. Implement `SLList->addLast()`
